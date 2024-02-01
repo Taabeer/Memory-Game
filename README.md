@@ -33,7 +33,9 @@ The Scriptgame Java program is an interactive game designed for users to practic
   - fullscript: Linked list to store the entire script.
 - **Methods**:
   - script: Reads the script from a file, parses it, and prepares character lines and cue lines.
-  - Levenshtein_distance: Computes the Levenshtein distance between two strings.
+  - Levenshtein_distance: Typo Algorithm. Calculates the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one String into another. It measures the similarity 
+    between two strings by counting the minimum number of operations needed to transform one string into the other. The `Levenshtein_distance` method in the Scriptgame calculates the distance between the user- 
+    entered line and the correct line, allowing for tolerant feedback on minor typos.
   - main: Main method to run the script game.
 ## Script Game
 
@@ -72,9 +74,6 @@ The Scriptgame Java program is an interactive game designed for users to practic
   - Levenshtein_distance: Computes the Levenshtein distance between two strings.
   - main: Main method to run the script game.
 
-### Typo Algorithm: Levenshtein Distance
-
-The Levenshtein distance algorithm calculates the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into another. It measures the similarity between two strings by counting the minimum number of operations needed to transform one string into the other. The `Levenshtein_distance` method in the Scriptgame calculates the distance between the user-entered line and the correct line, allowing for tolerant feedback on minor typos.
 
 ### How to Use
 
